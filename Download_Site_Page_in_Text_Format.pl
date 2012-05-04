@@ -16,26 +16,28 @@ use HTML::FormatText;
 main(@ARGV);
 
 sub main{
-	$site = <stdin>;
+	print "[+] Please report any bug on http://krokite.com Contact page";
+	print "[+] Enter Site URL for processing in text";
+	my $site = <stdin>;
 	chomp($site);
 
-	$url = get($site);
+	my $url = get($site);
 
-	$format = HTML::FormatText->new;
-	$treepattern = HTML::TreeBuilder->new;
+	my $format = HTML::FormatText->new;
+	my $treepattern = HTML::TreeBuilder->new;
 	$treepattern->parse($url);
 
-	$getPage = $format->format($treepattern);
+	my $getPage = $format->format($treepattern);
 	
 	# If you Only Want to View Page and Not Downloading than Just Remove Comment @ below line
 	# print "$getPage";
 
 	# if you do not want to Download the file than Comment below
-	$safeChar = "a-zA-Z0-9_-";
+	my $safeChar = "a-zA-Z0-9_-";
 	$site =~ s/http:\/\/www\.//g;
 	$site =~ s/\./-/g;
 	$site =~ s/[^$safeChar]//g;
 	open(FH, ">$site.txt");
-	print FH "$getPage";
+	print FH $getPage;
 	close(FH);
 }
