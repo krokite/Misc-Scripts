@@ -29,8 +29,8 @@ sub main{
 
 	my $getPage = $format->format($treepattern);
 	
-	# If you Only Want to View Page and Not Downloading than Just Remove Comment @ below line
-	# print "$getPage";
+	# If you also Want to View Page on Run time than Just Un-Comment below line.
+	# print $getPage;
 
 	# if you do not want to Download the file than Comment below
 	my $safeChar = "a-zA-Z0-9_-";
