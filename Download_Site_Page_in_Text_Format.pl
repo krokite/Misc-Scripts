@@ -16,8 +16,8 @@ use HTML::FormatText;
 main(@ARGV);
 
 sub main{
-	print "[+] Please report any bug on http://krokite.com Contact page";
-	print "[+] Enter Site URL for processing in text";
+	print "[+] Please report any bug on http://krokite.com Contact page\n";
+	print "[+] Enter Site URL for processing in text\n";
 	my $site = <stdin>;
 	chomp($site);
 
