@@ -4,8 +4,6 @@
 # Description	: You can Download any Site Page in Text Format with this Script.
 # Usage		: perl %prog <site_name> {%prog is the file name that you will save this script}
 
-print "Content-type: text/html\n\n";
-
 use strict;
 use warnings;
 
@@ -27,6 +25,7 @@ sub main{
 |__/  \__/      |__/  |__/       \______/       |__/  \__/      |______/         |__/         |________/
 
 ';
+	print "Content-type: text/html\n\n";
 	print "[+] Please report any bug on http://krokite.com Contact page\n";
 	print "[+] Enter Site URL for processing in text\n";
 	my $site = <stdin>;
