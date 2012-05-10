@@ -6,7 +6,6 @@
 
 use strict;
 use warnings;
-
 use LWP::Simple;
 use HTML::TreeBuilder;
 use HTML::FormatText;
