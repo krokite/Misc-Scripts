@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 # Author	: KroKite
-# URI		: http://krokite.com
+# URI		: http://krokite.com || http://board.blackbuntu.com (Pentesting Distro by c1ph3r {Big Bro})
 # Description	: You can Download any Site Page in Text Format with this Script.
 # Usage		: perl %prog <site_name> {%prog is the file name that you will save this script}
 
