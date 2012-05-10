@@ -25,6 +25,7 @@ ________________________________________________________________________________
 	print " @ http://board.blackbuntu.com\n";
 	print "[+] Check whether Site is Alive or not, Or if you are able to ping the website\n";
 	print "[+] Please Enter Website Name \n";
+	print ">>> ";
 	$host = <stdin>;
 	chomp($host);
 	$pinger = Net::Ping->new("icmp", 1, 64);
