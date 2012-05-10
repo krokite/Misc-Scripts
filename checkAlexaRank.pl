@@ -20,6 +20,10 @@ print '
     \__\/\__\/     \_\/ \_\/     \_____\/     \__\/\__\/   \________\/       \__\/     \_____\/
 
 ';
+print "[+] Author : KroKite\n";
+print "[+] Greets to : c1ph3r, Nop MayaSeven, Xcode, windows98SE, Nocdem, fb1h2s\n";
+print "[+] URI: http://krokite.com\n";
+print "[+] For Security Researcher People, We highly Recommend Visiting http://board.blackbuntu.com\n";
 print "[+] Enter Domain Name or Ip-Address :- \n";
 my $site=<STDIN>;
 chomp($site);
