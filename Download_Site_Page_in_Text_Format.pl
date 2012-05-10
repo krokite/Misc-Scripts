@@ -27,6 +27,7 @@ sub main{
 	print "Content-type: text/html\n\n";
 	print "[+] Please report any bug on http://krokite.com Contact page\n";
 	print "[+] Enter Site URL for processing in text\n";
+	print ">>> ";
 	my $site = <stdin>;
 	chomp($site);
 
