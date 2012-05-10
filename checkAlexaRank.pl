@@ -34,11 +34,11 @@ print '
  my $getResult = $fetchInfo->content;
  my $fdata = XMLin($getResult);
  # IF you want to Log all XML Sample Data, UnComment below line :)
- #print Dumper($fdata);
+ print Dumper($fdata);
  my $isSiteAvailable = $fetchInfo->content;
  if ($isSiteAvailable =~ /POPULARITY/g){
   print "Currently Your Search Website Ranks at ".$fdata->{SD}->[1]->{POPULARITY}->{TEXT}."\n";
-  print "Also, This website has Reached Rank till ".$fdata->{SD}->[1]->{POPULARITY}->{TEXT}."\n";
+  print "Also, This website has Reached Rank till ".$fdata->{SD}->[1]->{REACH}->{RANK}."\n";
  }else{
    print "Couldnot Find Your Site @ Alexa :(\n";
  }
