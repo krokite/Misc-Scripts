@@ -22,10 +22,10 @@ sub main{
 	echo("[+] Greets to: c1ph3r(Krit Kadnok), Nocdem, MayaSeven, Xcode, webDEVIl, fb1h2s, windows98se");
 	echo("[+] For Security Releated Discussions, Do Visit us at http://board.blackbuntu.com or http://worldofhacker.com");
 	echo("[+] This Application helps you to Know Or Perform WHOIS on any domain or IP Address, You Specify Below");
-	&process;
+	&whois;
 }
 
-sub process{
+sub whois{
 	echo("[+] Please Specify IP Address or Domain Below");
 	print ">>> ";
 	my $target = <stdin>;
