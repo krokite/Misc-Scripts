@@ -18,9 +18,9 @@ sub main{
 	\__|  \__| \__| \__| \______/  \__| \__| \______|   \__|   \________|
 	'."\n";
 	
-	echo("[+] Please Report any Bug to http://krokite.com");
+	echo("[+] Please Report any Bug to http://worldofhacker.com");
 	echo("[+] Greets to: c1ph3r(Krit Kadnok), Nocdem, MayaSeven, Xcode, webDEVIl, fb1h2s, windows98se");
-	echo("[+] For Security Releated Discussions, Do Visit us at http://board.blackbuntu.com or http://worldofhacker.com");
+	echo("[+] For Security Releated Discussions, Do Visit us at http://www.garage4hackers.com or http://worldofhacker.com");
 	echo("[+] This Application helps you to Know Or Perform WHOIS on any domain or IP Address, You Specify Below");
 	&whois;
 }

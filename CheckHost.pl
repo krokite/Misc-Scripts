@@ -20,9 +20,9 @@ oo____oo_____oo_____oo________oooo________oo____oo_____oooo________oo________ooo
 _____________________________________________________________________________________
 
 ";
-	print "[+] Please Report any Bug to http://krokite.com\n";
+	print "[+] Please Report any Bug to http://www.worldofhacker.com\n";
 	print "[+] Also, If you like to discuss about security and pentesting than please do visit us\n";
-	print " @ http://board.blackbuntu.com\n";
+	print " @ http://garage4hackers.com\n";
 	print "[+] Check whether Site is Alive or not, Or if you are able to ping the website\n";
 	print "[+] Please Enter Website Name \n";
 	print ">>> ";

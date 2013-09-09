@@ -22,8 +22,8 @@ print '
 ';
  print "[+] Author : KroKite\n";
  print "[+] Greets to : c1ph3r, Nop MayaSeven, Xcode, windows98SE, Nocdem, fb1h2s\n";
- print "[+] URI: http://krokite.com\n";
- print "[+] For Security Researcher People, We highly Recommend Visiting http://board.blackbuntu.com\n";
+ print "[+] URI: http://www.worldofhacker.com\n";
+ print "[+] For Security Researcher People, We highly Recommend Visiting http://garage4hackers.com\n";
  print "[+] Enter Domain Name or Ip-Address :- \n";
  print ">>> ";
  my $site=<STDIN>;
